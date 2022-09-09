@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <time.h>
+#include <stdlib.h>
 /**
- * main - Entry point
- * Description: prints allsingle digit numbers 
- * Return: Always 0 (success)
+ * main - main block
+ * Description: print all single digit numbers of base 10.
+ * Return: Always 0 (Success)
  */
-int main(void)
+int mai(void)
 {
 	int a;
-	
+
 	for (a = 0; a < 10; a++)
-	{
-		 printf("%d", a);
-	}
+		printf("%d", a);
 	putchar('\n');
-	return (0);
+	return (0)
 }
