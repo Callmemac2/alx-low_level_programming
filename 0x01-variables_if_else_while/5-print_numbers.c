@@ -1,18 +1,21 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <time.h>
+#include <stdlib.h>
 /**
  * main - Entry point
- * Description: print all single digit numbers of base 10.
+ * Description: print all single digit numbers of base 10
  * Return: Always 0 (Success)
  */
-int mai(void)
+int main(void)
 {
-	int a;
+	char c = '0';
 
-	for (a = 0; a < 10; a++)
+	while (c <= '9')
 	{
-		printf("%d", a);
+		putchar(c);
+		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
