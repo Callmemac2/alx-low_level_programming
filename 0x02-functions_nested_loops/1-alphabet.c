@@ -1,8 +1,6 @@
 #include "main.h"
-
 /**
- * main - Entry point
- * Description: a fonction that prints the alphabet
+ * print_alphabet - Function that prints alphabet.
  * Return: Always 0 (Success)
  */
 
@@ -15,5 +13,7 @@ void print_alphabet(void)
 		_putchar(ch);
 	}
 	_putchar('\n');
+
+	return (0);
 
 }
