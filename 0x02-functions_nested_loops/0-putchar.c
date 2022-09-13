@@ -1,8 +1,8 @@
-#include "main.h"
+#incude "main.h"
 
 /**
  * main - Entry point
- * Description: a program that prints _putchar.
+ * Description: a program that print _putchar.
  * Return: Always 0 (Success)
  */
 int main(void)
