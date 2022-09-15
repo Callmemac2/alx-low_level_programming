@@ -1,22 +1,18 @@
 #include <main.h>
 
 /**
- * _isupper - return 1 if parameter is uppercase alphabet
+ * _isupper - checks if character is uppercase
  *@c: the character to check
- * Return:  0 (failure)
+ * Return: 1 if is upperca or 0 otherwise
  */
 
 int _isupper(int c)
 {
-	int i;
-
-	for (i = 'A'; i <= 'Z'; i++)
+	if ((c >= 'A') && (c <= 'Z'))
 	{
 
-	if (i == c)
-	{
 		return (1);
-	}
 	}
 
 	return (0);
+}
