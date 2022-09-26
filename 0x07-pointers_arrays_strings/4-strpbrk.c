@@ -1,5 +1,16 @@
 #include "main.h"
 
+/**
+ * _strpbrk - seacrhes a string for any of a set of bytes
+ *
+ * @s: character to check
+ *
+ * @accept: character to look for
+ *
+ * Return: character
+ *
+ */
+
 char *_strpbrk(char *s, char *accept)
 {
 	int i, k;
